@@ -1,0 +1,111 @@
+*{
+
+    background-color: black;
+}
+body{
+    background-color: black !important;
+}
+.banner{
+    background-color: black !important;
+}
+.btc{
+    color: #00ffff;
+}
+.bimg{
+    height: 384px;
+    width: 280px;
+}
+/* }
+.bimg{
+    height: 350px;
+    width: 400px;
+}
+
+.bapl{
+    padding-left: 300px;
+} */
+ .responsive-width {
+  width: 100%;
+}
+.ft{
+    text-align: center;
+}
+.fontpr{
+    font-size: 12px;
+}
+.fontprh{
+    font-size: 18px;
+}
+@media (min-width: 768px) {
+  .responsive-width {
+    width: 50%;
+  }
+  .ft{
+    text-align: left;
+}
+.prbtns{
+    margin-top: 30px;
+}
+.contactmain{
+    width: fit-content !important;
+}
+}
+@media (min-width: 992px) {
+  .responsive-widthx {
+    width: 50%;
+  }
+  .ft{
+    text-align: left;
+}
+.fontpr{
+    font-size: 18px;
+}
+.fontprh{
+    font-size: 25px;
+}
+
+}
+.portfolio{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.portfolio h1{
+    font-size: 60px;
+}
+.experties{
+    margin-top: 60px;
+}
+.ex{
+    margin-bottom: 15px;
+}
+
+.fbg{
+    background-color: black;
+}
+.f::placeholder{
+    color: gray !important;
+    text-align: center;
+}
+.contactbtn:hover{
+    background-color: blue !important;
+}
+.contactmain {
+  padding: 40px 15px;
+}
+
+.contact {
+  max-width: 500px;
+  margin: auto;
+  padding: 32px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 15px white;
+  border-radius: 10px;
+  background-color: black;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .contact {
+    padding: 20px;
+  }
+}
